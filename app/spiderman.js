@@ -5,6 +5,12 @@ class  Spiderman{constructor(name, age, actor, movies, studio){
     this.movies = movies
     this.studio = studio
     }
+
+    getInfo(){
+        return `Hey, i'm ${this.actor} from ${this.studio} studio`
+    }
 }
+
+
 
 module.exports = Spiderman
