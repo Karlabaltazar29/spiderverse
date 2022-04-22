@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Karlabaltazar29/spiderverse.git"
   },
-  "author": "",
+  "author": "karla",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Karlabaltazar29/spiderverse/issues"
   },
-  "homepage": "https://github.com/Karlabaltazar29/spiderverse#readme"
+  "homepage": "https://github.com/Karlabaltazar29/spiderverse#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
